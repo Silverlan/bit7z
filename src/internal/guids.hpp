@@ -14,7 +14,6 @@
 
 namespace bit7z {
 
-extern "C" {
 #ifndef _WIN32
 extern const GUID IID_IUnknown;
 #endif
@@ -44,7 +43,6 @@ extern const GUID IID_IArchiveOpenVolumeCallback;
 extern const GUID IID_IArchiveOpenSetSubArchiveName;
 extern const GUID IID_IArchiveUpdateCallback;
 extern const GUID IID_IArchiveUpdateCallback2;
-}
 
 }  // namespace bit7z
 
